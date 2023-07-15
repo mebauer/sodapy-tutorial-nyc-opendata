@@ -1,6 +1,8 @@
 # Sodapy Tutorial Using NYC Open Data  
 Author: Mark Bauer
 
+![cover photo](figures/day-line.png)
+
 # Introduction  
 This project demonstrates how to:  
 - use sodapy (i.e. the python client for the Socrata API)   
