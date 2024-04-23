@@ -3,8 +3,8 @@ Author: Mark Bauer
 
 ### Table of Contents
 * [Introduction](#Introduction)
-* [Data](#Data)
 * [Tutorials](#Tutorials)
+* [Data](#Data)
 * [Additional Resources](#Additional-Resources)
     * [Socrata Open Data API](#Socrata-Open-Data-API)
     * [Sodapy](#Sodapy)
@@ -29,13 +29,13 @@ And provides:
 
 Inspiration for this project came from the [sodapy GitHub page](https://github.com/xmunoz/sodapy). Much of what I learned about sodapy, as well as working with the Socrata API, came from these developers. I encourage you to review the official sodapy GitHub page to have a better and more complete understanding of sodapy (e.g. installation, requirements, available methods, basic SoQL queries, etc.). This tutorial is meant to complement the official sodapy docs.
 
-### Data  
-The dataset used in this project is [311 Service Requests from 2010 to Present](https://nycopendata.socrata.com/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9) from [NYC Open Data](https://opendata.cityofnewyork.us/).
-
 ### Tutorials  
 - The Socrata Query Language (SoQL) notebook can be found here [socrata-query-language.ipynb](https://github.com/mebauer/sodapy-tutorial-nyc-open-data/blob/main/socrata-query-language.ipynb).
 - The sodapy tutorial notebook can be found here [sodapy-basics.ipynb](https://github.com/mebauer/sodapy-tutorial-nyc-open-data/blob/main/sodapy-basics.ipynb).
-- A sample analysis notebook can be found here [analysis.ipynb](https://github.com/mebauer/sodapy-tutorial-nyc-open-data/blob/main/analysis.ipynb).
+- A sample analysis notebook can be found here [sample-analysis.ipynb](https://github.com/mebauer/sodapy-tutorial-nyc-open-data/blob/main/sample-analysis.ipynb).
+
+### Data  
+The dataset used in this project is [311 Service Requests from 2010 to Present](https://nycopendata.socrata.com/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9) from [NYC Open Data](https://opendata.cityofnewyork.us/).
 
 ### Additional Resources 
 
