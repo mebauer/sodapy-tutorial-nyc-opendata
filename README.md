@@ -34,9 +34,7 @@ The dataset used in this project is [311 Service Requests from 2010 to Present](
 
 ### Tutorials  
 - The Socrata Query Language (SoQL) notebook can be found here [socrata-query-language.ipynb](https://github.com/mebauer/sodapy-tutorial-nyc-open-data/blob/main/socrata-query-language.ipynb).
-
 - The sodapy tutorial notebook can be found here [sodapy-basics.ipynb](https://github.com/mebauer/sodapy-tutorial-nyc-open-data/blob/main/sodapy-basics.ipynb).
-
 - A sample analysis notebook can be found here [analysis.ipynb](https://github.com/mebauer/sodapy-tutorial-nyc-open-data/blob/main/analysis.ipynb).
 
 ### Additional Resources 
