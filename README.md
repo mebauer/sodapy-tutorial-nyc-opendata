@@ -1,4 +1,4 @@
-# Socrata Open Data API (SODA) Tutorial with Python and NYC Open Data 
+# Socrata Open Data API Tutorial with Python and NYC Open Data 
 Author: Mark Bauer
 
 # Table of Contents
