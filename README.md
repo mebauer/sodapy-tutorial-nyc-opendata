@@ -20,16 +20,15 @@ Author: Mark Bauer
 ![cover photo](figures/day-line.png)
 
 # Introduction  
+Before analyzing a dataset, the first step is acquiring the data. While platforms like Kaggle and data.gov provide a wealth of datasets, one of the most popular platforms for local government data is [Socrata's](https://dev.socrata.com/) open data platform. Many government open data portals, including [NYC Open Data](https://opendata.cityofnewyork.us/), are powered by Socrata, making it a crucial resource for accessing public datasets. Fortunately, Socrata provides a robust and user-friendly API called the [Socrata Open Data API](https://dev.socrata.com/docs/endpoints) (or Socrata API for short), which allows you to extract and interact with these datsets, including metadata. Ultimately, the result of using the Socrata API is more effective, scalable, and reproducible data workflows.
 
-This project demonstrates how to:  
-- Use the Socrata Open Data API
-- Use sodapy (i.e. the python client for the Socrata API)  
+This project is designed to introduce both beginners and experienced users to the capabilities of the Socrata Open Data API. It focuses on how to locate, extract, and query datasets, which is key to performing data analysis. While smaller datasets can be loaded directly into a pandas dataframe from a URL (often in CSV format), larger datasets, such as NYC's 311 dataset which contains nearly 40 million rows, require more efficient methods of data retrieval. The Socrata Open Data API is ideal for this purpose.
 
-And provides:
-- Examples of the Socrata Query Language (also known as SoQL)  
-- A sample analysis notebook using datasets from NYC Open Data
+For a more comprehensive undertanding of the Socrata API, read the [official documentation](https://dev.socrata.com/).
 
-Inspiration for this project came from the [sodapy GitHub page](https://github.com/xmunoz/sodapy). Much of what I learned about sodapy, as well as working with the Socrata API, came from these developers. I encourage you to review the official Sodapy GitHub page to have a better and more complete understanding of sodapy (e.g. installation, requirements, available methods, basic SoQL queries, etc.). This tutorial is meant to complement the official Sodapy docs.
+This tutorial is the one I wish I had when I first started my data science journey, and I hope it helps you make the most of the Socrata API's powerful capabilities.
+
+Quick Note: The inspiration for this project came from the [Sodapy](https://github.com/xmunoz/sodapy) GitHub page, and much of the knowledge I gained about working with Sodapy and the Socrata API was based on the contributions from these developers. I highly recommend reviewing the official Sodapy documentation for a more comprehensive understanding of installation, requirements, available methods, and basic SoQL queries. We will use Sodapy, the Python client for interacting with the Socrata API, throughout this tutorial. Ultimately, this project is intended to complement, not replace, the official Sodapy docs.
 
 # Tutorials  
 - Socrata API Basics: [socrata-api-basics.ipynb](https://github.com/mebauer/sodapy-tutorial-nyc-opendata/blob/main/socrata-api-basics.ipynb) Get started with the Socrata Open Data API and the sodapy Python client. This tutorial introduces you to the basics of connecting to Socrata, retrieving data, and working with the API.
